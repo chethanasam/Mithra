@@ -1,0 +1,14 @@
+//jshint esVersion:6
+
+<%-include("header");-%>
+
+<p>
+    Welcome to <%=contentName %>
+  </p>
+  <% for(i=0; i<contentList.length;i++) {%>
+    <li><%=contentList[i]%></li>
+  <%}%>
+
+
+
+<%-include("footer"); -%>
